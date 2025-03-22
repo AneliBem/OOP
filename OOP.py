@@ -18,7 +18,6 @@ my_dog = Dog("John", 10)
 print(my_dog.name)
 
 # Encapsulation
-
 print(my_dog._Dog__sit())
 print(my_dog._sit())
 print(my_dog.sit())
