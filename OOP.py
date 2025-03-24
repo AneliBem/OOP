@@ -1,11 +1,14 @@
 class Animal:
+
     def __init__(self, name, age):
         self.name = name
         self.age = age
 
     def speak(self):
         return "Some speak"
+    
 class Cat(Animal):
+
     def speak(self):
         return "Neow"
 
@@ -34,5 +37,6 @@ my_cat = Cat("Bars", 5)
 # print(my_dog._roll())
 # print(my_dog.sit())
 
+# Inheritance
 print(my_cat.name, " speak to ", my_cat.speak())
 print(my_dog.name.capitalize(), " speak to ", my_dog.speak())
